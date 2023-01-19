@@ -1,0 +1,247 @@
+.banner-sup{
+    
+    margin: 0px 10px 0px 10px;
+    margin-bottom: 0px;
+    padding: 0px 20px 0px 20px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 10px 10px 0 0;   
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+}
+#btn-profile{
+    position:absolute;
+    top: 20px;
+    left: 98%;
+
+
+}
+.ArgP_logo{
+    border-radius: 8%;
+    width: 100px;
+    height: 40px;
+    margin-top:0px;
+    z-index: 1;
+}
+.banner-izq{
+
+    display: flex;
+
+    
+}
+.titulo-banner{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    display:inline-block;
+    vertical-align: middle;
+    
+}
+.redsocial{
+    border-radius: 25%;
+    width: 30px;
+    height: 30px;
+    margin-top:0px;
+    z-index: 1;
+}
+
+.jor-card{
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color:rgb(32, 32, 32);
+}
+
+.jor-card#first-card {
+    padding: 0px;
+    margin-top: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+div#profile-background {
+    display: flex;
+    
+}
+
+div#profile-background img {
+    width: 100%;
+    height: 400px;
+    border-radius: 0px 0px 0 0;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top:-110px;
+    z-index: 1;
+}
+
+.parrafo{
+    font-family: monospace;
+    font-size: 14px;
+    list-style: none;
+    text-align: justify;
+}
+div#info-actions {
+    display: flex;
+}
+
+
+div#info-actions button{
+    margin-right:10px;
+
+}
+
+
+
+
+
+div#info-data {
+    display: flex;
+    
+    
+}
+div#descripcion-gral{
+    padding: 10px 100px 10px 100px;
+}
+div#info-company h2 {
+    font-size:1.3rem;
+    font-weight: 600;
+    justify-content:center;
+    text-align: center;
+}
+div#trabajo-descr {
+    text-justify: auto;
+    text-align:left;
+}
+div#info-data h1{
+    font-size: 1.8rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+div#info-data ul#info-details{
+    width: 300px;
+    list-style:none;
+    flex-shrink:0;
+}
+div#info-data ul#info-details li a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+div#info-data ul#info-details li a h2{
+    font-size:1rem;
+    font-weight: 500;
+    align-self: center;
+    vertical-align: baseline;
+}
+
+div#info-data ul#info-detail a img{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+ul.items-list{
+    list-style:none inside;
+}
+ul.items-list li{
+    display: flex;
+    margin: 10px 0;
+}
+ul.items-list li div.data-container {
+    flex-grow: 1;
+}
+ul.items-list li div.data-container a {
+    display: flex;
+    color:black;
+    text-decoration: none;
+}
+div#info-data img {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.btn-edit {
+    float:right;
+    display: flex;
+    object-position: left;
+}
+.btn-clo{
+    display: inline-block;
+}
+
+.card-titles{
+    display: flex;
+    justify-content:space-between;
+}
+.exp_full_list{
+    list-style: none;
+}
+
+div#exp-list h3{
+    font-size: 1.3rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+    
+    
+}
+
+div#exp-list img{
+    width: 100px;
+    height: 70px;
+    margin-right: 8px;
+}
+#exp-list {
+    display: flex;
+   justify-content:left;
+   text-decoration:none;
+   list-style: none;
+}
+
+.hyss {
+display: flex;
+justify-content:space-between;
+}
+.hyss-title h3{
+    font-size: 1.1rem;
+    display: inline;
+    font-weight: 500;
+     
+}
+.progress {
+    width: 250px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+div#proyectos h3{
+    font-size: 1.3rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+div#hard-skills{
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+div#soft-skills{
+    padding-right: 100px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
